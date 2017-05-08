@@ -21,11 +21,23 @@
         Lic. Jose Antonio Gomez Hernandez
     </author>
 	
-	<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
-	<gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
-	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
-    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10"/>
-    <gap:plugin name="org.apache.cordova.device-motion" version="0.2.10"/>
+<!--Core plugins-->
+<plugin name="cordova-plugin-device" spec="~1.1.4"/>
+<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
+<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+
+<!-- <plugin name="cordova-plugin-inappbrowser" spec="~1.7.0" /> -->
+
+<!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
+<!-- Third part plugins -->
+
+<!-- Para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+
 	<!--Plugin Audio -->
     <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0" />
   
