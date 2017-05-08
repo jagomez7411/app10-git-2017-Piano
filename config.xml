@@ -39,7 +39,7 @@
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 	<!--Plugin Audio -->
-    <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0" />
+<plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" spec="1.1.3" source="pgb" />
   
   
     <!--Colocar icono app -->
