@@ -11,6 +11,11 @@ $(document).ready(function(e) {
   window.plugins.NativeAudio.preloadComplex( 're', 'audio/RE.mp3', function(){
     }, function(e){alert( 'error: ' + e);
     });	
+	
+	   // Play 
+    window.plugins.NativeAudio.play( 'do' );
+    window.plugins.NativeAudio.loop( 're' );
+	
 		//audio.preloadFX('do','audio/DO.mp3',function(){},function(e){alert('Error '+e);});
 		//audio.preloadFX('re','audio/RE.mp3',function(){},function(e){alert('Error '+e);});
 		//audio.preloadFX('mi','audio/MI.mp3',function(){},function(e){alert('Error '+e);});
