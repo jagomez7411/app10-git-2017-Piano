@@ -4,6 +4,7 @@ $(document).ready(function(e) {
 	document.addEventListener("deviceready",function(){
 		
 	//	audio=window.plugins.NativeAudio;
+	if( window.plugins && window.plugins.NativeAudio ) {
 	    window.plugins.NativeAudio.preloadSimple( 'do', 'audio/DO.mp3', function(){
     }, function(e){alert( 'error: ' + e);
     });
@@ -23,7 +24,7 @@ $(document).ready(function(e) {
 		//audio.preloadFX('sol','audio/SOL.mp3',function(){},function(e){alert('Error '+e);});
 		//audio.preloadFX('la','audio/LA.mp3',function(){},function(e){alert('Error '+e);});
 		//audio.preloadFX('si','audio/SI.mp3',function(){},function(e){alert('Error '+e);});
-		
+	}
 		$('.nota').bind('touchstart',function(){
 			$(this).addClass('tocada');
 			audio.play($(this).attr('id'));
