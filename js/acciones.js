@@ -7,7 +7,10 @@ $(document).ready(function(e) {
 	    window.plugins.NativeAudio.preloadSimple( 'do', 'audio/DO.mp3', function(){
     }, function(e){alert( 'error: ' + e);
     });
-		
+	
+  window.plugins.NativeAudio.preloadComplex( 're', 'audio/RE.mp3', function(){
+    }, function(e){alert( 'error: ' + e);
+    });	
 		//audio.preloadFX('do','audio/DO.mp3',function(){},function(e){alert('Error '+e);});
 		//audio.preloadFX('re','audio/RE.mp3',function(){},function(e){alert('Error '+e);});
 		//audio.preloadFX('mi','audio/MI.mp3',function(){},function(e){alert('Error '+e);});
