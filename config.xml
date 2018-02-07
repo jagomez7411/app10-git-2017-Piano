@@ -32,7 +32,7 @@
 
 <!-- Plugin Audio -->
 
-	<plugin name="cordova-plugin-nativeaudio" source="npm" />
+	<plugin name="cordova-plugin-media" spec="~5.0.2" / />
 	
 	
 <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> --> 
