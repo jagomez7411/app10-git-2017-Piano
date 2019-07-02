@@ -2,13 +2,13 @@
 
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.example5"  
+     id    = "com.phonegap.piano2019"  
      version  = "1.0.0">  
 	 
-   <name>app10-2018 Piano </name>
+   <name>app-2019 Piano </name>
 
     <description>
-        Utiliza Plugins de audio con un piano y las 7 notas musicales mayo 2017
+        Utiliza Plugins de audio con un piano y las 7 notas musicales julio 2019
     </description>
 
    <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
@@ -32,7 +32,7 @@
 
 <!-- Plugin Audio -->
 
-	<plugin name="cordova-plugin-media" spec="~5.0.2" />
+<plugin name="cordova-plugin-media" spec="https://github.com/apache/cordova-plugin-media.git"/>
 	
 	
 <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> --> 
